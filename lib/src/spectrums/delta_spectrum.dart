@@ -1,4 +1,4 @@
-import '../complex/complex.dart';
+import '../core/complex/complex.dart';
 
 class DeltaSpectrum {
   final double frequency;

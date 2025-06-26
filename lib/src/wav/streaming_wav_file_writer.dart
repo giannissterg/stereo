@@ -1,10 +1,10 @@
 import 'dart:io' show IOSink;
 import 'dart:typed_data';
 
-import 'package:stereo/src/wav/data_chunk.dart';
-import 'package:stereo/src/wav/fmt_chunk.dart';
-import 'package:stereo/src/wav/sample_converter.dart';
-import 'package:stereo/src/wav/wav_header.dart';
+import 'data_chunk.dart';
+import 'fmt_chunk.dart';
+import 'wav_header.dart';
+import 'sample_converter.dart';
 
 class StreamWavFileWriter {
   final IOSink sink;

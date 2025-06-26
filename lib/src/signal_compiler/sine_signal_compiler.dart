@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
-import 'package:stereo/src/signal_compiler/signal_compiler.dart';
-import 'package:stereo/src/signals/sine_signal.dart';
+import 'signal_compiler.dart';
+import '../signals/sine_signal.dart';
 
 class SineSignalCompiler implements SignalCompiler<SineSignal> {
   @override

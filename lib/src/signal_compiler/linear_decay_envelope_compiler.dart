@@ -1,5 +1,5 @@
-import 'package:stereo/src/fold_time_extension.dart';
-import 'package:stereo/src/signal_compiler/signal_compiler.dart';
+import 'signal_compiler.dart';
+import '../core/time/fold_time_extension.dart';
 
 class LinearDecayEnvelope<T> {
   const LinearDecayEnvelope(this.signal, this.duration);

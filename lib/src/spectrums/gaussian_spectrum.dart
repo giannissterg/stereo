@@ -1,5 +1,4 @@
-// Smooth frequency domain model (e.g. Gaussian)
-import 'package:stereo/src/complex/complex.dart';
+import '../core/complex/complex.dart';
 
 class GaussianSpectrum {
   const GaussianSpectrum(this.frequency, this.bandwidth, this.peakMagnitude);

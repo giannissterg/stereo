@@ -1,5 +1,6 @@
-import 'package:stereo/src/signal_compiler/signal_compiler.dart';
-import 'package:stereo/src/signals/adsr_signal.dart';
+
+import '../signals/adsr_signal.dart';
+import 'signal_compiler.dart';
 
 class AdsrEnvelopeCompiler<T> implements SignalCompiler<AdsrEnvelope<T>> {
   const AdsrEnvelopeCompiler(this.signalCompiler);

@@ -1,18 +1,7 @@
 import 'dart:math' as math;
 import 'dart:typed_data';
 
-import 'package:stereo/src/signal_compiler/adsr_envelope_compiler.dart';
-import 'package:stereo/src/signal_compiler/composite_signal_compiler.dart';
-import 'package:stereo/src/signal_compiler/linear_decay_envelope_compiler.dart';
-import 'package:stereo/src/signal_compiler/pair_signal_compiler.dart';
-import 'package:stereo/src/signal_compiler/sine_signal_compiler.dart';
-import 'package:stereo/src/signal_compiler/triangle_signal_compiler.dart';
-import 'package:stereo/src/signals/adsr_signal.dart';
-import 'package:stereo/src/signals/composite_signal.dart';
-import 'package:stereo/src/signals/pair_signal.dart';
-import 'package:stereo/src/signals/sine_signal.dart';
-import 'package:stereo/src/signals/triangle_signal.dart';
-import 'package:stereo/src/wav/wav_file_writer.dart';
+import 'package:stereo/stereo.dart';
 
 void main() {
   final tr = TriangleSignalCompiler();

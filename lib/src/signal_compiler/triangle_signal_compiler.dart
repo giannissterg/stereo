@@ -1,6 +1,6 @@
-import 'package:stereo/src/fold_time_extension.dart';
-import 'package:stereo/src/signal_compiler/signal_compiler.dart';
-import 'package:stereo/src/signals/triangle_signal.dart';
+import '../core/time/fold_time_extension.dart';
+import 'signal_compiler.dart';
+import '../signals/triangle_signal.dart';
 
 class TriangleSignalCompiler implements SignalCompiler<TriangleSignal> {
   @override

@@ -1,5 +1,4 @@
-import 'package:stereo/src/signals/composite_signal.dart';
-
+import '../signals/composite_signal.dart';
 import 'signal_compiler.dart';
 
 class CompositeSignalCompiler<T> implements SignalCompiler<CompositeSignal<T>> {

@@ -1,5 +1,5 @@
 class CosineSignal {
-  const CosineSignal(this.frequency, this.amplitude);
+  const CosineSignal({required this.frequency, required this.amplitude});
 
   final double frequency;
   final double amplitude;
